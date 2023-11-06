@@ -51,3 +51,14 @@ Change the X to the number you found to be the sound device ID.
 
 Press the play button at the top, and if everything went well, you should see the amplifier responding.
 
+## 6. Some elements in the code to change:
+In the future we will add more procedures for code to work with, but in this specific code there are a few
+variables you can play around with:
+
+If you need to change the amount of the coils, frequency or amplitude, then change:
+nCoils = 32
+    f = 100
+    a = 0.1
+
+If you need to change duration -- change:
+stimuliDuration = 0.2
