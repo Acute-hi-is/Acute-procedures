@@ -16,8 +16,11 @@ select MADIface USB from the drop down menu, select your OS, get the Driver, dow
 
 ## 3. Install libraries
 Install the Numpy and sounddevice packages to your python libraries. You might be able to do this with the command: 
+
 >python pip install numpy
+
 >python pip install sounddevice
+
 If you're using Pycharm then you can also do it manually by navigating to: 
 File -> settings -> Project: -> Python Interpreter -> press the "+ sign" -> search for Numpy and sounddevice -> install package...
 
@@ -42,7 +45,7 @@ One is a .sln, another one is a .pyproj, and a third is a .py.
 Right click the .sln, and open with pycharm. Open the .py file and navigate to the very end of the code snippet. There you will find
 the code:
 >with sd.OutputStream(device=X, channels=1, callback=callback,
-                            samplerate=samplerate, extra_settings=asio_ch):
+				samplerate=samplerate, extra_settings=asio_ch):
 
 Change the X to the number you found to be the sound device ID.
 
