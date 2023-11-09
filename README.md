@@ -7,12 +7,15 @@ getting started using the 32 channel amplifier on a PC.
 We recomend using [Pycharm community edition](https://www.jetbrains.com/pycharm/download/?section=windows), but
 alternatively we've used MS Visual Studio.
 
+Apparently you also need to either have Pycharm download Python for you or alternatively you can get it yourself and point pycharm towards the python file 
+(pycharm is only a code editor, doesnt come with python compiler unless you tell it to). So go ahead and download python from MS store or just from the web.
+
 Once you've set up your prefered python compiler, make sure to add it to [path](https://realpython.com/add-python-to-path/), and 
 restart the computer if needed.
 
 ## 2. Drivers
 The drivers used for the equipment is called MADIface USB. Navigate to [here](https://www.rme-audio.de/downloads.html),
-select MADIface USB from the drop down menu, select your OS, get the Driver, download the .zip file and follow the instructions.
+select MADIface XT from the drop down menu, select your OS, get the Driver, download the .zip file and follow the instructions.
 
 In case the link stops working, or for some reason the .zip file stops being supported, I've included a file from 11.23 in the test_actuators
 folder.
